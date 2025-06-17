@@ -1,0 +1,98 @@
+Full Name: SDL-CNF-TestRepo
+  Timing: Start / End / Elapsed:
+Status: 8 tests total, 7 passed, 1 failed, 0 skipped
+Full Name: SDL-CNF-TestRepo.CCTF
+  Timing: Start / End / Elapsed:
+Status: 8 tests total, 7 passed, 1 failed, 0 skipped
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas
+  Timing: Start / End / Elapsed:
+Status: 8 tests total, 7 passed, 1 failed, 0 skipped
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE
+  Timing: Start / End / Elapsed:
+Status: 8 tests total, 7 passed, 1 failed, 0 skipped
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA
+  Timing: Start / End / Elapsed:
+Status: 8 tests total, 7 passed, 1 failed, 0 skipped
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites
+  Timing: Start / End / Elapsed:
+Status: 8 tests total, 7 passed, 1 failed, 0 skipped
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Loginlogout
+  Documentation: Test suite for login and logout
+  Timing: Start / End / Elapsed:
+Status: 2 tests total, 2 passed, 0 failed, 0 skipped
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Navigation
+  Documentation: Test suite for NAVIGATION
+  Timing: Start / End / Elapsed:
+Status: 6 tests total, 5 passed, 1 failed, 0 skipped
+  Documentation: Created By ashish.kumar_senthil_kumar@nokia.com
+  Timing: Start / End / Elapsed:
+  Documentation: Created By ashish.kumar_senthil_kumar@nokia.com
+  Timing: Start / End / Elapsed:
+TEST: SDANBT253001-NAVIGATION-TO-LOCAL-DATA-QUERY-DASHBOARD
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Navigation.SDANBT253001-NAVIGATION-TO-LOCAL-DATA-QUERY-DASHBOARD
+Tags: SDLA-CNF-BASICS
+  Timing: Start / End / Elapsed:
+Status: PASS
+TEST: SDANBT253002-NAVIGATION-TO-MIGRATION-DASHBOARD
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Navigation.SDANBT253002-NAVIGATION-TO-MIGRATION-DASHBOARD
+Tags: SDLA-CNF-BASICS
+  Timing: Start / End / Elapsed:
+Status: PASS
+TEST: SDANBT253003-NAVIGATION-TO-AUDIT-DASHBOARD
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Navigation.SDANBT253003-NAVIGATION-TO-AUDIT-DASHBOARD
+Tags: SDLA-CNF-BASICS
+  Timing: Start / End / Elapsed:
+Status: PASS
+TEST: SDANBT253004-NAVIGATION-TO-BULKQUERY-DASHBOARD
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Navigation.SDANBT253004-NAVIGATION-TO-BULKQUERY-DASHBOARD
+Tags: SDLA-CNF-BASICS
+  Timing: Start / End / Elapsed:
+Status: PASS
+TEST: SDANBT253005-NAVIGATION-TO-HEALTHCHECK-HC-DASHBOARD
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Navigation.SDANBT253005-NAVIGATION-TO-HEALTHCHECK-HC-DASHBOARD
+Tags: SDLA-CNF-BASICS
+  Timing: Start / End / Elapsed:
+Status: FAIL
+Message: Element 'id=SDLHCDashboard-menu' not visible after 5 seconds.
+  Documentation: Created By ashish.kumar_senthil_kumar@nokia.com
+  Timing: Start / End / Elapsed:
+  Timing: Start / End / Elapsed:
+  Arguments: [  ]
+  Documentation: Login to SDLA GUI
+  Timing: Start / End / Elapsed:
+  Documentation: Simulates click on a menu item, where the menu contains two levels
+  Timing: Start / End / Elapsed:
+  Arguments: [ ${mainMenuElement}='id=SDLHCDashboard-menu' | ${secondaryMenuElement}='id=menu-SDLHCDashboard-management' ]
+  Documentation: Sets the main frame as the current frame.
+  Timing: Start / End / Elapsed:
+  Documentation: Waits until the element locator is visible.
+  Timing: Start / End / Elapsed:
+  Arguments: [ 'id=SDLHCDashboard-menu' ]
+  Documentation: Takes a screenshot of the current page and embeds it into a log file.
+  Timing: Start / End / Elapsed:
+  Arguments: [  ]
+  Documentation: Simulates hovering the mouse over the element locator .
+  Timing: Start / End / Elapsed:
+  Documentation: Wait until page contains ${selector} on the page. Then click it. Fails If element not visible.
+  Timing: Start / End / Elapsed:
+
+KEYWORD: ${IsElementVisible} =
+  Documentation: Runs the given keyword with given arguments and returns the status as a Boolean value.
+  Timing: Start / End / Elapsed:
+  Documentation: Runs the given keyword with the given arguments, if condition is true.
+  Timing: Start / End / Elapsed:
+  Documentation: Waits until the element locator is visible.
+  Timing: Start / End / Elapsed:
+  Documentation: Wait until page contains ${selector} on the page. Then click it. Fails If element not visible.
+  Timing: Start / End / Elapsed:
+  Documentation: Pauses the test executed for the given time.
+  Timing: Start / End / Elapsed:
+  Documentation: Runs the given keyword with the given arguments, if condition is true.
+  Timing: Start / End / Elapsed:
+  Documentation: Created By ashish.kumar_senthil_kumar@nokia.com
+  Timing: Start / End / Elapsed:
+TEST: SDANBT253006-NAVIGATION-TO-DATA-REBALANCING-DASHBOARD
+Full Name: SDL-CNF-TestRepo.CCTF.TestAreas.NEVE.SDLA.TestSuites.Navigation.SDANBT253006-NAVIGATION-TO-DATA-REBALANCING-DASHBOARD
+Tags: SDLA-CNF-BASICS
+  Timing: Start / End / Elapsed:
+Status: PASS
