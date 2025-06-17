@@ -1,0 +1,36 @@
+
+# Additional dependencies for specific features
+
+# We are using playwright for web scraping, so ensure you have the necessary browsers installed.
+
+# You can install the browsers with the following command:  playwright install
+
+# If you want to use the OpenAI API, make sure to set your OpenAI API key in the .env file.
+
+langchain-community
+langchain-openai
+langchain   
+python-dotenv
+beautifulsoup4
+playwright
+playwright-sync
+tiktoken
+chromadb
+openai
+ChatOllama
+load_dotenv
+langchain.prompts
+
+
+
+langchain>=0.1.0
+langchain-community>=0.0.30
+langchain-openai>=0.0.6
+openai>=1.0.0
+transformers>=4.30.0
+bs4>=0.0.1
+playwright>=1.41.2
+python-dotenv>=1.0.0
+chromadb>=0.4.15
+torch>=2.0.0
+sentence-transformers>=2.2.2
